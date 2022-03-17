@@ -6,9 +6,8 @@ import com.mycommerce.project.model.Product;
 import com.mycommerce.project.model.User;
 import com.mycommerce.project.utils.JpaDaoManager;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Query;
+
+import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 

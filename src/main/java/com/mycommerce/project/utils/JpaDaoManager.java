@@ -1,9 +1,11 @@
 package com.mycommerce.project.utils;
 
+
 import lombok.Getter;
 
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+
+import jakarta.persistence.*;
+
 
 @Getter
 public class JpaDaoManager {
